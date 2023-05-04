@@ -41,5 +41,33 @@
     <br />
     <div class="alert alert-danger">hello from danger</div>
     <div class="alert alert-success">hello from success</div>
+    <form class="form">
+      <h4>contact form</h4>
+      <div class="form-row">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          placeholder="hello there"
+          id="name"
+          class="form-input"
+        />
+      </div>
+      <div class="form-row">
+        <label for="number" class="form-label">Number</label>
+        <input type="number" id="number" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" placeholder="email" id="email" class="form-input" />
+        <small class="form-alert">please provide value</small>
+      </div>
+      <div class="form-row">
+        <label for="textarea" class="form-label">Textarea</label>
+        <textarea class="form-textarea">
+Default Value
+        </textarea>
+      </div>
+      <button type="submit" class="btn btn-block">submit</button>
+    </form>
   </body>
 </html>
