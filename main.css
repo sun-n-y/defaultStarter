@@ -255,3 +255,16 @@ ul {
 .loading {
   margin: 0 auto;
 }
+
+/* title */
+.title {
+  text-align: center;
+}
+
+.title-underline {
+  background: var(--primary-500);
+  width: 7rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  margin-top: -1.25rem;
+}
